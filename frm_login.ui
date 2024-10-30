@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>388</width>
+    <height>206</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget{
+background-color: #2c3e50;
+border: 2px solid #fff;
+border-radius: 10px;
+animation: midnightShift 10s
+infinite alternate;
+}
+
+@keyframes midnightShift {
+	0% {
+			background-color: #2c3e50;
+	}
+	25% {
+			background-color: #34495e;
+	}
+	50%{
+			background-color: #2c3e50;
+	}
+	75%{
+			background-color: #1c2833;
+	}
+	100%{
+			background-color:#2c3e50;
+	}
+}
+QLabel{
+color: #FFE5B4;
+border: #FFE5B4;
+border-radius: 1px;
+}
+QLabel:focus{
+color: #FFE5B4;
+border: #FFE5B4;
+border-radius: 1px;
+}
+
+QLineEdit{
+background:Silver;
+border: 2px rgb(85, 170, 255) solid;
+border-radius: 10px;
+color: #B87333
+}
+QLineEdit:focus {
+Background: #F4FDFF;
+border: 2px  solid #FFE5B4;
+color: #B87333
+}
+
+QComboBox{
+background:Silver;
+border: 2px rgb(85, 170, 255) solid;
+border-radius: 10px;
+color: #B87333
+}
+
+QPushButton{
+background:Silver;
+border: 2px rgb(85, 170, 255) solid;
+border-radius: 10px;
+color: #B87333
+}
+
+QPushButton:hover{
+background:#F4FDFF;
+border: 2px rgb(85, 170, 255) solid;
+border-radius: 10px;
+color: #B87333
+}
+</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>20</y>
+      <width>361</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Identificação Conta</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>50</y>
+      <width>131</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Usuário ou Email:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>90</y>
+      <width>181</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>120</y>
+      <width>131</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Senha:</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>90</y>
+      <width>121</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Entrar</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_3">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>150</y>
+      <width>181</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>10</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>do-utilizador.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>150</y>
+      <width>121</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Cadastrar</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
